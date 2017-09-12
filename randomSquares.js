@@ -57,6 +57,14 @@ function stopRandom () {
   clearInterval(stop)
 }
 
+function resetCells (list) {
+  // Takes list of IDs
+  list.forEach(function (id) {
+    // Sets the background color to white for all IDs in list
+    document.getElementById(id).style.backgroundColor = 'rgb(255,255,255)'
+  })
+}
+
 // Default list of IDs
 var cells = [
   'A1', 'A2', 'A3', 'A4',
