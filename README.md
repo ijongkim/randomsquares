@@ -6,6 +6,7 @@ By default, frequency is 250ms, timeout is 2000ms, and an RGB color value can be
 ## How to use
 1. Clone repo to your working directory.
 2. Ensure all three files (html, css, and js) are in the same directory.
-3. Open index.html in the browser of your choice
+3. Open index.html in the browser of your choice.
 4. Press 'START' to begin random coloring.
 5. Press 'STOP' to stop random coloring.
+6. Press 'RESET' to reset all cells back to white.
