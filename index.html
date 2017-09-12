@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Random Squares</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script src="randomSquares.js"></script>
+</head>
+<body>
+  <div class="intro center-child">
+    <h1>Random Squares</h1>
+    <p>Hello! This page will randomly select one of the 16 cells in the grid and fill it with a random color. You can interact with the page by clicking the buttons below.</p>
+    <span>
+      <button onclick="startRandom(cells)">START</button>
+      <button onclick="stopRandom()">STOP</button>
+    </span>
+  </div>
+  <table class="center">
+    <tr>
+      <td id="A1"></td>
+      <td id="A2"></td>
+      <td id="A3"></td>
+      <td id="A4"></td>
+    </tr>
+    <tr>
+      <td id="B1"></td>
+      <td id="B2"></td>
+      <td id="B3"></td>
+      <td id="B4"></td>
+    </tr>
+    <tr>
+      <td id="C1"></td>
+      <td id="C2"></td>
+      <td id="C3"></td>
+      <td id="C4"></td>
+    </tr>
+    <tr>
+      <td id="D1"></td>
+      <td id="D2"></td>
+      <td id="D3"></td>
+      <td id="D4"></td>
+    </tr>
+  </table>
+  <div class="footer">
+    <h2 class="center-child">History:</h2>
+    <div id="history" class="center-child">
+    </div>
+  </div>
+</body>
+</html>

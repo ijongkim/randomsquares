@@ -1,0 +1,60 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-size: 3.5em;
+  margin: 0.2em;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+button {
+  padding: 20px;
+  font-weight: 800;
+  font-size: 2em;
+}
+
+table {
+  border: 2px solid black;
+  height: 50%;
+  width: 50%;
+  border-spacing: 0;
+}
+
+td {
+  border: 1px solid black;
+  padding: 10%;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.center-child {
+  text-align: center;
+}
+
+.buttonContainer {
+  margin: 0 auto;
+}
+
+.intro {
+  width: 60%;
+  margin: 2% auto;
+}
+
+.footer {
+  width: 60%;
+  height: 20%;
+  margin: 2% auto;
+}
+
+#history {
+  height: 100%;
+  overflow-y: scroll;
+  border: 2px solid black;
+}
